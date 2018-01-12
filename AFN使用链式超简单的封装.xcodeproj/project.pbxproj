@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		408CF8EC243FB87116225704 /* Pods_AFN__________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598D825F51B753C2AD69A0DC /* Pods_AFN__________.framework */; };
+		4E8A9D414B64C2F9D68042E2 /* Pods_AFN__________UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A2BB8536E045CA5559A947 /* Pods_AFN__________UITests.framework */; };
+		B59A3B2720088BBF0086BB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A3B2620088BBF0086BB5D /* AppDelegate.m */; };
+		B59A3B2A20088BBF0086BB5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A3B2920088BBF0086BB5D /* ViewController.m */; };
+		B59A3B2D20088BBF0086BB5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59A3B2B20088BBF0086BB5D /* Main.storyboard */; };
+		B59A3B2F20088BBF0086BB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59A3B2E20088BBF0086BB5D /* Assets.xcassets */; };
+		B59A3B3220088BBF0086BB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59A3B3020088BBF0086BB5D /* LaunchScreen.storyboard */; };
+		B59A3B3520088BBF0086BB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A3B3420088BBF0086BB5D /* main.m */; };
+		B59A3B3F20088BBF0086BB5D /* AFN__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A3B3E20088BBF0086BB5D /* AFN__________Tests.m */; };
+		B59A3B4A20088BBF0086BB5D /* AFN__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A3B4920088BBF0086BB5D /* AFN__________UITests.m */; };
+		B59A3B5A20088BD10086BB5D /* LLNetWorkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A3B5920088BD10086BB5D /* LLNetWorkTools.m */; };
+		B59A3B5D20088DC30086BB5D /* MBProgressHUD+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A3B5B20088DC30086BB5D /* MBProgressHUD+HUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B59A3B3B20088BBF0086BB5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59A3B1A20088BBF0086BB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59A3B2120088BBF0086BB5D;
+			remoteInfo = "AFN使用链式超简单的封装";
+		};
+		B59A3B4620088BBF0086BB5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59A3B1A20088BBF0086BB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59A3B2120088BBF0086BB5D;
+			remoteInfo = "AFN使用链式超简单的封装";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34A2BB8536E045CA5559A947 /* Pods_AFN__________UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFN__________UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		454FB29940AD4C14766D25C2 /* Pods-AFN使用链式超简单的封装.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFN使用链式超简单的封装.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFN使用链式超简单的封装/Pods-AFN使用链式超简单的封装.release.xcconfig"; sourceTree = "<group>"; };
+		598D825F51B753C2AD69A0DC /* Pods_AFN__________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFN__________.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3A4C63242E06B95DE554E1 /* Pods-AFN使用链式超简单的封装UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFN使用链式超简单的封装UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFN使用链式超简单的封装UITests/Pods-AFN使用链式超简单的封装UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B052EF95D64F9A3FC45B35D9 /* Pods-AFN使用链式超简单的封装.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFN使用链式超简单的封装.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFN使用链式超简单的封装/Pods-AFN使用链式超简单的封装.debug.xcconfig"; sourceTree = "<group>"; };
+		B59A3B2220088BBF0086BB5D /* AFN使用链式超简单的封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFN使用链式超简单的封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59A3B2520088BBF0086BB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B59A3B2620088BBF0086BB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B59A3B2820088BBF0086BB5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B59A3B2920088BBF0086BB5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B59A3B2C20088BBF0086BB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B59A3B2E20088BBF0086BB5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B59A3B3120088BBF0086BB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B59A3B3320088BBF0086BB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59A3B3420088BBF0086BB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B59A3B3A20088BBF0086BB5D /* AFN使用链式超简单的封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFN使用链式超简单的封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59A3B3E20088BBF0086BB5D /* AFN__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFN__________Tests.m; sourceTree = "<group>"; };
+		B59A3B4020088BBF0086BB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59A3B4520088BBF0086BB5D /* AFN使用链式超简单的封装UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFN使用链式超简单的封装UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59A3B4920088BBF0086BB5D /* AFN__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFN__________UITests.m; sourceTree = "<group>"; };
+		B59A3B4B20088BBF0086BB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59A3B5820088BD10086BB5D /* LLNetWorkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNetWorkTools.h; sourceTree = "<group>"; };
+		B59A3B5920088BD10086BB5D /* LLNetWorkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNetWorkTools.m; sourceTree = "<group>"; };
+		B59A3B5B20088DC30086BB5D /* MBProgressHUD+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+HUD.m"; sourceTree = "<group>"; };
+		B59A3B5C20088DC30086BB5D /* MBProgressHUD+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+HUD.h"; sourceTree = "<group>"; };
+		B9CCDEB877802AFE3262716D /* Pods-AFN使用链式超简单的封装UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFN使用链式超简单的封装UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFN使用链式超简单的封装UITests/Pods-AFN使用链式超简单的封装UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B59A3B1F20088BBF0086BB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408CF8EC243FB87116225704 /* Pods_AFN__________.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59A3B3720088BBF0086BB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59A3B4220088BBF0086BB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A9D414B64C2F9D68042E2 /* Pods_AFN__________UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		532B05FA4F0C50B71E970A54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B052EF95D64F9A3FC45B35D9 /* Pods-AFN使用链式超简单的封装.debug.xcconfig */,
+				454FB29940AD4C14766D25C2 /* Pods-AFN使用链式超简单的封装.release.xcconfig */,
+				5D3A4C63242E06B95DE554E1 /* Pods-AFN使用链式超简单的封装UITests.debug.xcconfig */,
+				B9CCDEB877802AFE3262716D /* Pods-AFN使用链式超简单的封装UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A14F38FE0DCD3C07DDF60DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				598D825F51B753C2AD69A0DC /* Pods_AFN__________.framework */,
+				34A2BB8536E045CA5559A947 /* Pods_AFN__________UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B59A3B1920088BBF0086BB5D = {
+			isa = PBXGroup;
+			children = (
+				B59A3B2420088BBF0086BB5D /* AFN使用链式超简单的封装 */,
+				B59A3B3D20088BBF0086BB5D /* AFN使用链式超简单的封装Tests */,
+				B59A3B4820088BBF0086BB5D /* AFN使用链式超简单的封装UITests */,
+				B59A3B2320088BBF0086BB5D /* Products */,
+				532B05FA4F0C50B71E970A54 /* Pods */,
+				A14F38FE0DCD3C07DDF60DDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B59A3B2320088BBF0086BB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59A3B2220088BBF0086BB5D /* AFN使用链式超简单的封装.app */,
+				B59A3B3A20088BBF0086BB5D /* AFN使用链式超简单的封装Tests.xctest */,
+				B59A3B4520088BBF0086BB5D /* AFN使用链式超简单的封装UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B59A3B2420088BBF0086BB5D /* AFN使用链式超简单的封装 */ = {
+			isa = PBXGroup;
+			children = (
+				B59A3B2520088BBF0086BB5D /* AppDelegate.h */,
+				B59A3B2620088BBF0086BB5D /* AppDelegate.m */,
+				B59A3B2820088BBF0086BB5D /* ViewController.h */,
+				B59A3B2920088BBF0086BB5D /* ViewController.m */,
+				B59A3B5720088BD10086BB5D /* NetWorkTools链式语法封装 */,
+				B59A3B2B20088BBF0086BB5D /* Main.storyboard */,
+				B59A3B2E20088BBF0086BB5D /* Assets.xcassets */,
+				B59A3B3020088BBF0086BB5D /* LaunchScreen.storyboard */,
+				B59A3B3320088BBF0086BB5D /* Info.plist */,
+				B59A3B3420088BBF0086BB5D /* main.m */,
+			);
+			path = "AFN使用链式超简单的封装";
+			sourceTree = "<group>";
+		};
+		B59A3B3D20088BBF0086BB5D /* AFN使用链式超简单的封装Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B59A3B3E20088BBF0086BB5D /* AFN__________Tests.m */,
+				B59A3B4020088BBF0086BB5D /* Info.plist */,
+			);
+			path = "AFN使用链式超简单的封装Tests";
+			sourceTree = "<group>";
+		};
+		B59A3B4820088BBF0086BB5D /* AFN使用链式超简单的封装UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B59A3B4920088BBF0086BB5D /* AFN__________UITests.m */,
+				B59A3B4B20088BBF0086BB5D /* Info.plist */,
+			);
+			path = "AFN使用链式超简单的封装UITests";
+			sourceTree = "<group>";
+		};
+		B59A3B5720088BD10086BB5D /* NetWorkTools链式语法封装 */ = {
+			isa = PBXGroup;
+			children = (
+				B59A3B5820088BD10086BB5D /* LLNetWorkTools.h */,
+				B59A3B5920088BD10086BB5D /* LLNetWorkTools.m */,
+				B59A3B5C20088DC30086BB5D /* MBProgressHUD+HUD.h */,
+				B59A3B5B20088DC30086BB5D /* MBProgressHUD+HUD.m */,
+			);
+			path = "NetWorkTools链式语法封装";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59A3B2120088BBF0086BB5D /* AFN使用链式超简单的封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59A3B4E20088BBF0086BB5D /* Build configuration list for PBXNativeTarget "AFN使用链式超简单的封装" */;
+			buildPhases = (
+				811CE4B50DD1DCFAE65A1F64 /* [CP] Check Pods Manifest.lock */,
+				B59A3B1E20088BBF0086BB5D /* Sources */,
+				B59A3B1F20088BBF0086BB5D /* Frameworks */,
+				B59A3B2020088BBF0086BB5D /* Resources */,
+				E3103478D050367A733F71A9 /* [CP] Embed Pods Frameworks */,
+				8ABB7914B47243B6F2B31A2C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFN使用链式超简单的封装";
+			productName = "AFN使用链式超简单的封装";
+			productReference = B59A3B2220088BBF0086BB5D /* AFN使用链式超简单的封装.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B59A3B3920088BBF0086BB5D /* AFN使用链式超简单的封装Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59A3B5120088BBF0086BB5D /* Build configuration list for PBXNativeTarget "AFN使用链式超简单的封装Tests" */;
+			buildPhases = (
+				B59A3B3620088BBF0086BB5D /* Sources */,
+				B59A3B3720088BBF0086BB5D /* Frameworks */,
+				B59A3B3820088BBF0086BB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B59A3B3C20088BBF0086BB5D /* PBXTargetDependency */,
+			);
+			name = "AFN使用链式超简单的封装Tests";
+			productName = "AFN使用链式超简单的封装Tests";
+			productReference = B59A3B3A20088BBF0086BB5D /* AFN使用链式超简单的封装Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B59A3B4420088BBF0086BB5D /* AFN使用链式超简单的封装UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59A3B5420088BBF0086BB5D /* Build configuration list for PBXNativeTarget "AFN使用链式超简单的封装UITests" */;
+			buildPhases = (
+				6822BFAC22365C1F7BDDC17B /* [CP] Check Pods Manifest.lock */,
+				B59A3B4120088BBF0086BB5D /* Sources */,
+				B59A3B4220088BBF0086BB5D /* Frameworks */,
+				B59A3B4320088BBF0086BB5D /* Resources */,
+				C3CB0D688C35FCE82614A10C /* [CP] Embed Pods Frameworks */,
+				F67EF05E1F88B3FCEAA3AC67 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B59A3B4720088BBF0086BB5D /* PBXTargetDependency */,
+			);
+			name = "AFN使用链式超简单的封装UITests";
+			productName = "AFN使用链式超简单的封装UITests";
+			productReference = B59A3B4520088BBF0086BB5D /* AFN使用链式超简单的封装UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B59A3B1A20088BBF0086BB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "周尊贤";
+				TargetAttributes = {
+					B59A3B2120088BBF0086BB5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B59A3B3920088BBF0086BB5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B59A3B2120088BBF0086BB5D;
+					};
+					B59A3B4420088BBF0086BB5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B59A3B2120088BBF0086BB5D;
+					};
+				};
+			};
+			buildConfigurationList = B59A3B1D20088BBF0086BB5D /* Build configuration list for PBXProject "AFN使用链式超简单的封装" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B59A3B1920088BBF0086BB5D;
+			productRefGroup = B59A3B2320088BBF0086BB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59A3B2120088BBF0086BB5D /* AFN使用链式超简单的封装 */,
+				B59A3B3920088BBF0086BB5D /* AFN使用链式超简单的封装Tests */,
+				B59A3B4420088BBF0086BB5D /* AFN使用链式超简单的封装UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B59A3B2020088BBF0086BB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59A3B3220088BBF0086BB5D /* LaunchScreen.storyboard in Resources */,
+				B59A3B2F20088BBF0086BB5D /* Assets.xcassets in Resources */,
+				B59A3B2D20088BBF0086BB5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59A3B3820088BBF0086BB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59A3B4320088BBF0086BB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6822BFAC22365C1F7BDDC17B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFN使用链式超简单的封装UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		811CE4B50DD1DCFAE65A1F64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFN使用链式超简单的封装-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ABB7914B47243B6F2B31A2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFN使用链式超简单的封装/Pods-AFN使用链式超简单的封装-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CB0D688C35FCE82614A10C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFN使用链式超简单的封装UITests/Pods-AFN使用链式超简单的封装UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3103478D050367A733F71A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AFN使用链式超简单的封装/Pods-AFN使用链式超简单的封装-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFN使用链式超简单的封装/Pods-AFN使用链式超简单的封装-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F67EF05E1F88B3FCEAA3AC67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFN使用链式超简单的封装UITests/Pods-AFN使用链式超简单的封装UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B59A3B1E20088BBF0086BB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59A3B2A20088BBF0086BB5D /* ViewController.m in Sources */,
+				B59A3B3520088BBF0086BB5D /* main.m in Sources */,
+				B59A3B5A20088BD10086BB5D /* LLNetWorkTools.m in Sources */,
+				B59A3B5D20088DC30086BB5D /* MBProgressHUD+HUD.m in Sources */,
+				B59A3B2720088BBF0086BB5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59A3B3620088BBF0086BB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59A3B3F20088BBF0086BB5D /* AFN__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59A3B4120088BBF0086BB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59A3B4A20088BBF0086BB5D /* AFN__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B59A3B3C20088BBF0086BB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59A3B2120088BBF0086BB5D /* AFN使用链式超简单的封装 */;
+			targetProxy = B59A3B3B20088BBF0086BB5D /* PBXContainerItemProxy */;
+		};
+		B59A3B4720088BBF0086BB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59A3B2120088BBF0086BB5D /* AFN使用链式超简单的封装 */;
+			targetProxy = B59A3B4620088BBF0086BB5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B59A3B2B20088BBF0086BB5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59A3B2C20088BBF0086BB5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B59A3B3020088BBF0086BB5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59A3B3120088BBF0086BB5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B59A3B4C20088BBF0086BB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B59A3B4D20088BBF0086BB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B59A3B4F20088BBF0086BB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B052EF95D64F9A3FC45B35D9 /* Pods-AFN使用链式超简单的封装.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "AFN使用链式超简单的封装/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.AFN----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B59A3B5020088BBF0086BB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454FB29940AD4C14766D25C2 /* Pods-AFN使用链式超简单的封装.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "AFN使用链式超简单的封装/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.AFN----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B59A3B5220088BBF0086BB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "AFN使用链式超简单的封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.AFN----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFN使用链式超简单的封装.app/AFN使用链式超简单的封装";
+			};
+			name = Debug;
+		};
+		B59A3B5320088BBF0086BB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "AFN使用链式超简单的封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.AFN----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFN使用链式超简单的封装.app/AFN使用链式超简单的封装";
+			};
+			name = Release;
+		};
+		B59A3B5520088BBF0086BB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3A4C63242E06B95DE554E1 /* Pods-AFN使用链式超简单的封装UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "AFN使用链式超简单的封装UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.AFN----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AFN使用链式超简单的封装";
+			};
+			name = Debug;
+		};
+		B59A3B5620088BBF0086BB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CCDEB877802AFE3262716D /* Pods-AFN使用链式超简单的封装UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "AFN使用链式超简单的封装UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.AFN----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AFN使用链式超简单的封装";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B59A3B1D20088BBF0086BB5D /* Build configuration list for PBXProject "AFN使用链式超简单的封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59A3B4C20088BBF0086BB5D /* Debug */,
+				B59A3B4D20088BBF0086BB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59A3B4E20088BBF0086BB5D /* Build configuration list for PBXNativeTarget "AFN使用链式超简单的封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59A3B4F20088BBF0086BB5D /* Debug */,
+				B59A3B5020088BBF0086BB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59A3B5120088BBF0086BB5D /* Build configuration list for PBXNativeTarget "AFN使用链式超简单的封装Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59A3B5220088BBF0086BB5D /* Debug */,
+				B59A3B5320088BBF0086BB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59A3B5420088BBF0086BB5D /* Build configuration list for PBXNativeTarget "AFN使用链式超简单的封装UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59A3B5520088BBF0086BB5D /* Debug */,
+				B59A3B5620088BBF0086BB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B59A3B1A20088BBF0086BB5D /* Project object */;
+}

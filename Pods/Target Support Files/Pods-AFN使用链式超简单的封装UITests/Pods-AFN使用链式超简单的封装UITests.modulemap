@@ -1,0 +1,6 @@
+framework module Pods_AFN__________UITests {
+  umbrella header "Pods-AFN使用链式超简单的封装UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
